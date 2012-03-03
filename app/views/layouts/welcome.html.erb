@@ -2,7 +2,8 @@
   <head>
   </head>
   <body>
-    <%= render :partial => "title" %>
+    <%= render :partial => "/layouts/title" %>
+    <%#= render :partial => "/layouts/title", :formats => [:html] %>
     <%= yield %>
   </body>
 </html>
